@@ -1,0 +1,44 @@
+.overall {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  padding: 10px;
+}
+.container {
+  border: 2px;
+  padding: 20px;
+}
+.container > div:nth-child(1) {
+  background-color: rgb(197, 255, 62);
+}
+.container > div:nth-child(2) {
+  background-color: rgb(96, 31, 247);
+}
+.container > div:nth-child(3) {
+  background-color: rgb(241, 82, 109);
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+.box1,
+.box2,
+.box3 {
+  background-color: rgba(84, 84, 146, 0.308);
+  padding: 20px;
+}
+.box4,
+.box5 {
+  background-color: rgb(177, 248, 183);
+  padding: 50px;
+}
+.box6,
+.box7,
+.box8 {
+  background-color: rgb(225, 151, 255);
+  padding: 20px;
+}
